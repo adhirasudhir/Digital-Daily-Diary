@@ -1,0 +1,82 @@
+body {
+  background-color: #222;
+  color: #fff; /* Setting default font color to white */
+}
+
+.bg-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.image {
+  filter: blur(2px);
+  -webkit-filter: blur(3px);
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+form {
+  margin-top: 20px;
+}
+input[name="Name"],
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+input[type="email"],
+input[type="int"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff; /* Setting font color to white */
+}
+
+input[type="submit"] {
+  background-color: #3baad6;
+  cursor: pointer;
+  width: 320px;
+  color: rgb(29, 29, 29);
+}
+
+input[type="submit"]:hover {
+  background-color: #04aaf7;
+}
+
+a {
+  color: #f90;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
